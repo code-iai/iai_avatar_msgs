@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>iai_avatar_msgs</name>
+  <version>0.0.1</version>
+  <description>Messages to control the iai_avatar in Unreal Engine</description>
+
+  <maintainer email="pmania@cs.uni-bremen.de">Patrick Mania</maintainer>
+  <author email="pmania@cs.uni-bremen.de">Patrick Mania</author>
+
+  <license>BSD</license>
+
+
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend> -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+
+  <export>
+
+  </export>
+</package>

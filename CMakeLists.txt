@@ -21,7 +21,9 @@ add_service_files(
    FILES
    MoveTo.srv
 	 AvatarRotation.srv
+	 PositionDuration.srv
    PanTilt.srv
+	 NamedTargetInterpolation.srv
    Command.srv
 )
 

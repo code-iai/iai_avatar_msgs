@@ -20,11 +20,12 @@ add_message_files(
 add_service_files(
    FILES
    MoveTo.srv
-	 AvatarRotation.srv
-	 PositionDuration.srv
+   AvatarRotation.srv
+   PositionDuration.srv
    PanTilt.srv
-	 NamedTargetInterpolation.srv
+   NamedTargetInterpolation.srv
    Command.srv
+   GeneralGrasp.srv
 )
 
 ## Generate added messages and services with any dependencies listed here

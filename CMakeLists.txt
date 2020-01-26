@@ -9,13 +9,15 @@ find_package(
 	std_msgs
         geometry_msgs
 	message_generation
-        actionlib_msgs
         genmsg
+        actionlib_msgs
+        actionlib
 )
 
 ## Generate messages in the 'msg' folder
 add_message_files(
    FILES
+   SemanticCamObj.msg
 )
 
 ## Generate actions in the 'action' folder
@@ -31,6 +33,7 @@ add_service_files(
    NamedTargetInterpolation.srv
    Command.srv
    GeneralGrasp.srv
+   SemanticCamera.srv
 )
 
 ## Generate added messages and services with any dependencies listed here

@@ -2,4 +2,4 @@ string command
 string targetObject
 ---
 bool success
-string[] list
+string[] obj_list
